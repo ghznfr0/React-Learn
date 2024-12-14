@@ -13,6 +13,7 @@ function App() {
   }
   return (
     <>
+    <h1>Counter App</h1>
     <button onClick={increment}>Add Value</button>
     <h3>Counter value: {count} </h3>
     <button onClick={decrement}>Remove Value</button>
